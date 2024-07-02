@@ -1,4 +1,10 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from 'vue';
+import App from './App.vue';
+import './main.css';
+import SvgIcon from '@jamescoyle/vue-icon'
 
-createApp(App).mount("#app");
+const app = createApp(App)
+
+app.component('mdi-icon', SvgIcon);
+
+app.mount('#app');
