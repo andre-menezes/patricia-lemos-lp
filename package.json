@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --r git@github.com:andre-menezes/patricia-lemos-lp.git"
   },
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
@@ -25,3 +25,4 @@
     "tailwindcss": "^3.4.4"
   }
 }
+
