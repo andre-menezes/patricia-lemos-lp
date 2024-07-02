@@ -2,9 +2,11 @@
   "name": "hernani-kaiser",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andre-menezes.github.io/patricia-lemos-lp",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
@@ -17,6 +19,7 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "prettier": "^2.4.1",
     "tailwindcss": "^3.4.4"
