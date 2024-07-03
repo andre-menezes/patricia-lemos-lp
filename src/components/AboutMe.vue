@@ -18,7 +18,28 @@
           autodescoberta e crescimento, fornecendo insights e ferramentas que podem te levar a uma vida mais plena e
           equilibrada.
         </p>
+        <a :href="whatsappLink" target="_blank" class="
+            uppercase
+            block
+            w-fit
+            mx-auto
+            sm:mx-0
+            my-10
+            px-8
+            py-4
+            hover:bg-variant-g/80
+            bg-variant-g
+            text-xs
+            text-primary
+            font-montserrat
+            font-semibold">
+          Vamos conversar
+        </a>
       </article>
     </div>
   </section>
 </template>
+
+<script setup>
+import { whatsappLink } from '@/utils/constants';
+</script>

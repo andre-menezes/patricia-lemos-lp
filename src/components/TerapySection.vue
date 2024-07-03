@@ -164,6 +164,5 @@ import {
   mdiNumeric5,
 } from '@mdi/js';
 import DotIcon from './DotIcon.vue';
-
-const whatsappLink = 'https://api.whatsapp.com/send?phone=5511919406356&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20terapia.';
+import { whatsappLink } from '@/utils/constants';
 </script>
